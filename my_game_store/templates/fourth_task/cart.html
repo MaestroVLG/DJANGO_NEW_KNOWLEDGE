@@ -1,0 +1,10 @@
+{% extends "fourth_task/menu.html" %}
+
+{% block pagename %}Корзина{% endblock %}
+
+{% block content %}
+<h1>Корзина</h1>
+<p>Здесь вы можете увидеть товары, которые вы добавили в корзину.</p>
+<p>Добавьте здесь любую информацию, соответствующую тематике.</p>
+<button onclick="location.href='{% url 'home' %}'">На главную</button>
+{% endblock %}
